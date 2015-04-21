@@ -1,6 +1,8 @@
 # gdx2d-videofile
 The video files for creating the YouTube demo reel of [gdx2d](https://github.com/hevs-isi/gdx2d) project.
 
+![Logo](/logo/logo_640.png?raw=true "Optional Title")
+
 # Recording setup
 I used [*Open Broadcaster software*](https://obsproject.com/index) to record the demos of [gdx2d](https://github.com/hevs-isi/gdx2d). 
 
