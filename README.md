@@ -16,7 +16,9 @@ I used it in *Game capture mode* with the following settings:
 # Conversion
 I then converted the resulting `.flv` to `mp4` using `ffmpeg` with following settings:
 
-    ffmpeg -i "all_shaders.flv" -c:v libx264 -preset slow -pix_fmt yuv420p -profile:v high -filter:v:0 "crop=1280:720:640:360" -c:a copy all_shaders2.mp4
+```
+ffmpeg -i "all_shaders.flv" -c:v libx264 -preset slow -pix_fmt yuv420p -profile:v high -filter:v:0 "crop=1280:720:640:360" -c:a copy all_shaders2.mp4
+```
 
 This was done to crop the resulting image to 720p resolution and set the parameters suitable for YouTube.
 
